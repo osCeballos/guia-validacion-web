@@ -62,3 +62,25 @@ Para que la práctica esté aprobada, la última versión desplegada en vuestro 
 * **HTML de la W3C:** 0 Errores.
 * **CSS de la W3C:** 0 Errores.
 * **Lighthouse:** Una puntuación superior a **90 puntos** (color verde) en las secciones de **Accesibilidad**, **Buenas Prácticas** y **SEO**.
+
+## 4. ¿No sabes cómo solucionar los errores? (Uso de IA)
+
+Si después de pasar los validadores o Lighthouse no entiendes qué significa un error o cómo solucionarlo, puedes utilizar herramientas de Inteligencia Artificial (como ChatGPT, Claude, Gemini o DeepSeek) como apoyo para tu aprendizaje.
+
+Para obtener la mejor respuesta posible, copia el siguiente *prompt* (instrucción), rellena los datos entre corchetes `[ ]` y envíaselo a la IA:
+
+---
+
+**Copia y pega este prompt:**
+
+> Actúa como un profesor experto en desarrollo web front-end, estándares de la W3C y accesibilidad web. Estoy auditando el código de mi proyecto final y necesito ayuda para entender y corregir unos errores para superar la nota de 90 en Lighthouse y tener 0 errores en la W3C.
+> 
+> **Herramienta que ha detectado el error:** [Escribe aquí si es W3C HTML, W3C CSS, JSHint o Lighthouse]
+> 
+> **Mensaje de error exacto:**
+> "[PEGA AQUÍ EL TEXTO DEL ERROR O LA ADVERTENCIA]"
+> 
+> **Mi código actual:**
+> ```[html/css/javascript]
+> [PEGA AQUÍ EL FRAGMENTO DE TU CÓDIGO RELACIONADO CON EL ERROR]
+>
