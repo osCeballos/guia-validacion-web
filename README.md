@@ -69,8 +69,6 @@ Si después de pasar los validadores o Lighthouse no entiendes qué significa un
 
 Para obtener la mejor respuesta posible, copia el siguiente *prompt* (instrucción), rellena los datos entre corchetes `[ ]` y envíaselo a la IA:
 
----
-
 **Copia y pega este prompt:**
 
 > Actúa como un profesor experto en desarrollo web front-end, estándares de la W3C y accesibilidad web. Estoy auditando el código de mi proyecto final y necesito ayuda para entender y corregir unos errores para superar la nota de 90 en Lighthouse y tener 0 errores en la W3C.
@@ -81,6 +79,14 @@ Para obtener la mejor respuesta posible, copia el siguiente *prompt* (instrucci�
 > "[PEGA AQUÍ EL TEXTO DEL ERROR O LA ADVERTENCIA]"
 > 
 > **Mi código actual:**
-> ```[html/css/javascript]
-> [PEGA AQUÍ EL FRAGMENTO DE TU CÓDIGO RELACIONADO CON EL ERROR]
->
+> ```html
+> <!-- PEGA AQUÍ EL FRAGMENTO DE TU CÓDIGO RELACIONADO CON EL ERROR -->
+> 
+```
+> 
+> Por favor, no te limites a darme el código solucionado. Necesito que:
+> 1. Me expliques de forma sencilla por qué mi código produce este error.
+> 2. Me expliques qué regla semántica, de sintaxis o de accesibilidad estoy incumpliendo.
+> 3. Me des el código corregido con comentarios indicando qué ha cambiado y por qué.
+
+> ⚠️ **Nota importante:** Pega a la IA solo el *fragmento* de código afectado (por ejemplo, la etiqueta `<nav>` o la función concreta de JS), no todo el documento entero, para que la herramienta pueda ser mucho más rápida y precisa.
