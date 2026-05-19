@@ -7,6 +7,10 @@ La **W3C (World Wide Web Consortium)** es la organización internacional que des
 2. Asegúrate de estar en la pestaña **"Validate by URI"**.
 3. En el campo *Address*, pega la URL completa de tu GitHub Pages (ej. `https://tu-usuario.github.io/tu-repositorio/`).
 4. Haz clic en **Check**.
+   
+<img width="1588" height="407" alt="Group 41" src="https://github.com/user-attachments/assets/c47d6e1f-d542-41c9-a7e3-38630d7b0749" />
+
+<img width="1588" height="723" alt="image 4" src="https://github.com/user-attachments/assets/760af8b9-f88a-4913-96de-150d121eff91" />
 
 > 💡 **En qué fijarse:** Los *Errors* (en rojo) deben corregirse obligatoriamente, ya que rompen la estructura o la semántica. Los *Warnings* (en amarillo) son sugerencias de buenas prácticas o avisos sobre elementos redundantes que conviene revisar.
 
@@ -14,6 +18,10 @@ La **W3C (World Wide Web Consortium)** es la organización internacional que des
 1. Entra en el [Validador de CSS de la W3C](https://jigsaw.w3.org/css-validator/).
 2. En la pestaña **"Por URL"**, introduce la misma dirección de tu GitHub Pages.
 3. Haz clic en **Examinar**. Si la sintaxis de tus hojas de estilo es correcta, verás un mensaje de felicitación sobre fondo verde.
+
+<img width="1588" height="407" alt="Group 42" src="https://github.com/user-attachments/assets/41edfa8b-177e-4f04-b7b7-c2d632047399" />
+
+<img width="1588" height="521" alt="image 5" src="https://github.com/user-attachments/assets/e0bd5c2a-6196-4550-8cf0-0a6a56164359" />
 
 ---
 
@@ -35,11 +43,19 @@ A diferencia de HTML y CSS, **JavaScript no tiene un validador oficial de la W3C
 1. Abre una ventana en **modo incógnito** en Google Chrome (esto evita que tus extensiones afecten a las puntuaciones de rendimiento).
 2. Entra en la URL de tu **GitHub Pages**.
 3. Abre las Herramientas de Desarrollador pulsando `F12` (o clic derecho -> *Inspeccionar*).
-4. En el menú de pestañas superior, selecciona **Lighthouse** (si no aparece a primera vista, haz clic en las flechas `>>`).
-5. Configura la prueba:
+   
+<img width="1588" height="894" alt="Group 44" src="https://github.com/user-attachments/assets/ca10ab4c-2d4c-49b9-bf39-03792d1f995a" />
+
+5. En el menú de pestañas superior, selecciona **Lighthouse** (si no aparece a primera vista, haz clic en las flechas `>>`).
+
+<img width="1588" height="894" alt="Group 45" src="https://github.com/user-attachments/assets/dda1e8cf-5818-44ea-a575-331c55936625" />
+
+7. Configura la prueba:
    * **Mode:** Navigation (Default)
    * **Device:** Mobile (es el estándar de la industria, si pasa en móvil, pasará en escritorio).
-6. Haz clic en **Analyze page load** y no toques la ventana hasta que termine.
+8. Haz clic en **Analyze page load** y no toques la ventana hasta que termine.
+
+<img width="1588" height="1638" alt="Group 46" src="https://github.com/user-attachments/assets/81ce93d8-b6d5-48b3-a123-86c61b56791e" />
 
 ### 🎯 Criterios de aceptación para la entrega
 Para que la práctica esté aprobada, la última versión desplegada en vuestro repositorio debe cumplir:
