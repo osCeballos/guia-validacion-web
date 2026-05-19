@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Prueba de Validación - Mi Primer Sitio</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <!-- ERROR: Uso de etiquetas de presentación obsoletas -->
+    <center>
+        <h1>Bienvenidos a mi web de pruebas</h1>
+    </center>
+
+    <!-- ERROR: El atributo 'alt' es obligatorio en imágenes por accesibilidad (WCAG) -->
+    <!-- ERROR: La etiqueta <img> se cierra mal (no lleva </img>) -->
+    <img src="https://picsum.photos/200/300"></img>
+
+    <!-- ERROR: Estructura mal anidada (Se cierra el <div> antes que el <p>) -->
+    <div class="contenedor">
+        <p>Este es un texto de prueba para ver qué nos dice el validador de la W3C.
+    </div>
+        </p>
+
+    <!-- ERROR: ID duplicado en el mismo documento (Los IDs deben ser únicos) -->
+    <ul>
+        <li id="elemento-unico">Primer elemento</li>
+        <li id="elemento-unico">Segundo elemento</li>
+    </ul>
+
+    <!-- ERROR: Atributo inexistente o mal inventado en HTML5 -->
+    <section mi-atributo-inventado="hola">
+        <h2>Sección secundaria</h2>
+        <!-- ERROR: Enlace roto o vacío, y falta de texto descriptivo si tuviera solo un icono -->
+        <a href="" target="_blank">Haz clic aquí</a>
+    </section>
+
+</body>
+</html>

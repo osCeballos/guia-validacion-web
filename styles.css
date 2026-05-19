@@ -1,0 +1,29 @@
+/* ERROR: Falta el punto y coma final y hay una propiedad mal escrita (background-colr) */
+body {
+    font-family: 'Arial', sans-serif;
+    background-colr: #f0f0f0
+    margin: 0;
+}
+
+/* ERROR: Llave de cierre faltante en el selector anterior o este selector mal abierto */
+h1 {
+    color: #333;
+    font-size: 24px;
+
+.contenedor {
+    padding: 20px;
+    /* ERROR: Unidad de medida inexistente o mal escrita (20pxs) */
+    margin-bottom: 20pxs;
+}
+
+/* ERROR: El validador avisará si usas propiedades de CSS que no existen */
+ul {
+    list-style: none;
+    text-align: center;
+    custom-property-inventada: active;
+}
+
+#elemento-unico {
+    /* ERROR: Color en formato hexadecimal mal escrito (falta un número/letra o sobra) */
+    color: #ff55g0; 
+}
